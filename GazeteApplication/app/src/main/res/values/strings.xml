@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GazeteApplication</string>
+    <string name="action_settings">Settings</string>
+    <string name="baglanti_hatasi">Baglanti Hatasi: Baglanti yok</string>
+
+</resources>
