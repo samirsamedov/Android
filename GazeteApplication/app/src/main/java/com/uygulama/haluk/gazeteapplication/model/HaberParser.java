@@ -19,7 +19,7 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 /**
- * Created by Haluk on 30.04.2016.
+ * Created by Samir on 30.04.2016.
  */
 public class HaberParser {
     private String webAddress;

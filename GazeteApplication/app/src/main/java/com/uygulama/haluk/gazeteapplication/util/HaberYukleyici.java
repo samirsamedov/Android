@@ -11,7 +11,7 @@ import com.uygulama.haluk.gazeteapplication.model.HaberParser;
 import java.util.List;
 
 /**
- * Created by Haluk on 30.04.2016.
+ * Created by Samir on 30.04.2016.
  */// Asycn parametrelerini biz ayarladık burda
 public class HaberYukleyici extends AsyncTask<String, Void, List<Haber>> {
 

@@ -12,7 +12,7 @@ import com.uygulama.haluk.gazeteapplication.model.Haber;
 import java.util.List;
 
 /**
- * Created by Haluk on 30.04.2016.
+ * Created by Samir on 30.04.2016.
  */
 public class HaberListesiAdapter extends BaseAdapter
 {

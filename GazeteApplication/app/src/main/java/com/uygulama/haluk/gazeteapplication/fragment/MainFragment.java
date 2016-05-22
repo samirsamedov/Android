@@ -14,7 +14,7 @@ import com.uygulama.haluk.gazeteapplication.util.HaberYukleyici;
 import com.uygulama.haluk.gazeteapplication.util.Util;
 
 /**
- * Created by Haluk on 30.04.2016.
+ * Created by Samir on 30.04.2016.
  */
 
 //

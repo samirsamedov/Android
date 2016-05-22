@@ -11,7 +11,7 @@ import java.io.InputStream;
 import java.net.URL;
 
 /**
- * Created by Haluk on 30.04.2016.
+ * Created by Samir on 30.04.2016.
  */
 public class Util {
     private static Util INSTANCE;

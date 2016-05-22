@@ -8,7 +8,7 @@ import android.support.v4.app.FragmentManager;
 import com.uygulama.haluk.gazeteapplication.R;
 
 /**
- * Created by Haluk on 30.04.2016.
+ * Created by Samir on 30.04.2016.
  */
 public abstract class AbstractSingleFragment extends FragmentActivity
 {
