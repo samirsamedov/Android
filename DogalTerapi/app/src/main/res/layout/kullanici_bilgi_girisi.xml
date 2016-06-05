@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_singup_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ios_textview_style"
+            android:gravity="center"
+            android:hint="@string/txt_singup_name" />
+
+        <EditText
+            android:id="@+id/txt_singup_surname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ios_textview_style"
+            android:gravity="center"
+            android:hint="@string/txt_singup_surname" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chk_singup_female"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/ios_textview_style"
+                android:hint="@string/chk_singup_female"
+                android:checked="false" />
+
+            <CheckBox
+                android:id="@+id/chk_singup_male"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/ios_textview_style"
+                android:hint="@string/chk_singup_male" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txt_sinup_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ios_textview_style"
+            android:gravity="center"
+            android:hint="@string/txt_sinup_phone"
+            android:inputType="phone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txt_singup_yas"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ios_textview_style"
+                android:gravity="center"
+                android:hint="@string/txt_singup_yas"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txt_singup_kilo"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ios_textview_style"
+                android:gravity="center"
+                android:hint="@string/txt_singup_kilo"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txt_singup_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ios_textview_style"
+            android:gravity="center"
+            android:hint="@string/txt_singup_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txt_singup_adress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ios_textview_style"
+            android:gravity="center"
+            android:hint="@string/txt_singup_adress" />
+
+        <LinearLayout
+            android:id="@+id/lin_uc_secenek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/chk_singup_hacamat"
+                android:layout_width="105dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/ios_textview_style"
+                android:checked="false"
+                android:hint="@string/chk_sigup_hacamat" />
+
+            <CheckBox
+                android:id="@+id/chk_singup_leech_therapy"
+                android:layout_width="105dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/ios_textview_style"
+                android:checked="false"
+                android:hint="@string/chk_sigup_hirvdu" />
+
+            <CheckBox
+                android:id="@+id/chk_singup_lefro_therapy"
+                android:layout_width="105dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/ios_textview_style"
+                android:hint="@string/chk_sigup_reflo"
+                android:checked="false" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ios_textview_style"
+                android:text="@string/btn_signup_record"
+                android:id="@+id/btn_singup_save" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ios_textview_style"
+                android:text="@string/btn_signup_temizle"
+                android:id="@+id/btn_singup_temizle" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

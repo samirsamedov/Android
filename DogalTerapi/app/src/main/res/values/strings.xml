@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Dogal Terapi</string>
+    <!--MAIN ACTIVITY-->
+    <string name="app_welcome">Hoşgeldiniz</string>
+    <string name="btn_main_new_record">Yeni Kayıt</string>
+
+    <!--New Record Acvity-->
+    <string name="txt_singup_name">Ad</string>
+    <string name="txt_singup_surname">Soyad</string>
+    <string name="txt_sinup_phone">Telefon</string>
+    <string name="txt_singup_yas">Yas</string>
+    <string name="txt_singup_kilo">Kilo</string>
+    <string name="txt_singup_adress">Adres</string>
+    <string name="txt_singup_email">E-Posta</string>
+    <string name="chk_sigup_hacamat">Hacamat</string>
+    <string name="chk_sigup_hirvdu">Leech Therapy</string>
+    <string name="chk_sigup_reflo">Leflo Therapy</string>
+    <string name="btn_signup_record">Kaydet</string>
+    <string name="chk_singup_female">Kadın</string>
+    <string name="chk_singup_male">Erkek</string>
+    <!--Musteri Bilgisi Activity-->
+    <string name="txt_mus_ad">Ad :</string>
+    <string name="txt_mus_soyad">Soyad :</string>
+    <string name="txt_mus_telefon">Telefon :</string>
+    <string name="txt_mus_yas">Yas :</string>
+    <string name="txt_mus_kilo">Kilo :</string>
+    <string name="txt_mus_email">E-Posta :</string>
+    <string name="txt_mus_adres">Adres    :</string>
+    <string name="btn_mus_guncelle">Guncelle</string>
+    <string name="btn_main_uptade">İşlemler</string>
+    <string name="empty_message">Kırmızı Alanları Doldurunuz</string>
+    <string name="btn_mus_res4">Resim 4</string>
+    <string name="btn_mus_res3">Resim 3</string>
+    <string name="btn_mus_res2">Resim2</string>
+    <string name="btn_mus_res1">Resim 1</string>
+    <string name="singup_empty_field_message">Boş Alanları Doldurunuz</string>
+    <string name="btn_signup_temizle">Temizle</string>
+    <string name="btn_main_musterileri_goster">Musteri Bilgileri</string>
+    <string name="txt_main_mus_bilgileri">Musteri Bilgi/İşlem</string>
+    <!--İslemler Activity-->
+    <string name="btn_islemler_silme">Kayıt Silmi</string>
+    <string name="btn_islemler_guncelleme">Kayıt Guncelle</string>
+    <string name="btn_mus_item_phone">Telefon</string>
+    <string name="btn_mus_bil_sil">Sil</string>
+    <string name="btn_mus_bil_guncelle">Güncelle</string>
+    <string name="txt_act_single_arama">Ad</string>
+
+
+</resources>
