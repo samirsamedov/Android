@@ -117,7 +117,7 @@ public class MusterilikListesiFragment extends ListFragment {
             } else {
                 img_mus_item_gender.setImageResource(R.drawable.male);
             }
-            
+
             return convertView;
         }
     }
