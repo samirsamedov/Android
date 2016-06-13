@@ -7,14 +7,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.sam.volleyactions.MainActivity">
+    tools:context="com.sam.volleyactions.VolleyCachNetwork">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Server IP Response"
-        android:id="@+id/txt_response"
+        android:text="Server DATE Response"
+        android:id="@+id/txt_response2"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Take Info From Server"
-        android:id="@+id/btn_request"
+        android:id="@+id/btn_request2"
         android:layout_below="@+id/txt_response"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="71dp" />
@@ -32,9 +32,10 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go To Secont Activity"
-        android:id="@+id/btn_second"
+        android:text="Back to Main"
+        android:id="@+id/btn_gomain"
         android:layout_centerVertical="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true" />
+
 </RelativeLayout>
