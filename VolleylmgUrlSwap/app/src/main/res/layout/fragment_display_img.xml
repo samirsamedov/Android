@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sam.volleylmgurlswap.activity.DisplayImgFrag">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/relative_layout_frag_display"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentEnd="true"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:id="@+id/txt_frag_display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="Name"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt_frag_display_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Count"
+            android:textColor="@color/colorPrimary" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_frag_display"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <ImageView
+            android:id="@+id/img_frag_display"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
