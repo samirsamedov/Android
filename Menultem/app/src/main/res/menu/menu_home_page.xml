@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.TabbedHomeActivity">
+    <item
+        android:id="@+id/menu_info"
+        android:icon="@drawable/info"
+        android:title="@string/action_info"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:icon="@drawable/exit"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+
+
+</menu>
