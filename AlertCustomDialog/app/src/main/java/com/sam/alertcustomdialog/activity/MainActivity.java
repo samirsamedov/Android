@@ -16,6 +16,7 @@ import com.sam.alertcustomdialog.dialog.MyAlert;
 
 public class MainActivity extends AppCompatActivity {
     Button btn_show_dialog;
+    Button btn_show_dialog_with_fragment;
     Button btn_cancel;
     Button btn_login;
     EditText txt_name;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         btn_show_dialog = (Button) findViewById(R.id.btn_show_dialog);
+        btn_show_dialog_with_fragment = (Button) findViewById(R.id.btn_show_dialog_with_fragment);
 
         btn_show_dialog.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,6 +59,15 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
+            }
+        });
+
+        btn_show_dialog_with_fragment.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+            FragmentManager fragmentManager = getSupportFragmentManager();
+                MyAlert myAlert = new MyAlert();
+                myAlert.show(fragmentManager,"News");
             }
         });
 

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aaa" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You say beach, I say Boomer!
+I need to learn out how to add music to a gif." />
+
+    <Button
+        android:id="@+id/dosomething"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do Something" />
+
+</LinearLayout>
