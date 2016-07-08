@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AlertDialog</string>
+
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturdan</item>
+        <item>Sanday</item>
+    </string-array>
+</resources>
