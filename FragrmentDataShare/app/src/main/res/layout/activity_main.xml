@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.sam.fragrmentdatashare.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/frag1"
+            android:name="com.sam.fragrmentdatashare.FragmentOne"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/frag_one" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/second_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/frag2"
+            android:name="com.sam.fragrmentdatashare.FragmentTwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/frag_two" />
+    </RelativeLayout>
+
+</LinearLayout>
