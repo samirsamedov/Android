@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sam/facebookloginex/ComplexPreferences.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sam/facebookloginex/FBApplication.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sam/facebookloginex/FBLoginActivity.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sam/facebookloginex/FBLogoutActivity.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sam/facebookloginex/FBPrefUtils.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/sam/facebookloginex/FBUser.java" charset="windows-1254" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/facebook_logout.xml" charset="windows-1254" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
