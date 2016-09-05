@@ -1,5 +1,6 @@
 package com.sam.cloudinaryex;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,16 @@ public class MainActivity extends AppCompatActivity {
 
         final ImageView img = (ImageView) findViewById(R.id.img);
         Button btn = (Button) findViewById(R.id.btn);
+        Button btn_nextAct = (Button) findViewById(R.id.btn_nextAct);
+
+        btn_nextAct.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this,SecondActivity.class));
+            }
+        });
+
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
