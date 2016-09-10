@@ -17,6 +17,13 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, ReceiverActivity.class);
         i.putExtra("Editing", model);
         startActivity(i);
+        /*
+        
+        Model model = (Model) getIntent().getSerializableExtra("Editing");
+
+        txt_name.setText(model.getName());
+        txt_surname.setText(model.getSurName());
+        txt_age.setText(""+model.getAge());*/
 
     }
 }
